@@ -1,0 +1,31 @@
+        .pokemon-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+    
+        .pokemon-card:hover {
+            transform: translateY(-5px);
+        }
+    
+        .pokemon-image {
+            width: 100%;
+            height: auto;
+        }
+    
+        .pokemon-info {
+            padding: 1rem;
+        }
+    
+        .pokemon-details {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+    
+        .pokemon-cry,
+        .pokemon-footprint {
+            cursor: pointer;
+        }

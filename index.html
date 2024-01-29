@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Pokédex</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="font-sans bg-white text-gray-800">
@@ -39,6 +40,20 @@
         <!-- Placeholder for Pokémon List -->
         <div id="pokemon-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <!-- Individual Pokémon Entries will be populated here -->
+            <div class="pokemon-card">
+                <img src="path-to-bulbasaur.png" alt="Bulbasaur" class="pokemon-image">
+                <div class="pokemon-info">
+                    <h3 class="pokemon-name">001 - Bulbasaur</h3>
+                    <div class="pokemon-details">
+                        <img src="path-to-cry-icon.png" alt="Cry" class="pokemon-cry">
+                        <img src="path-to-footprint.png" alt="Footprint" class="pokemon-footprint">
+                    </div>
+                    <p class="pokemon-description">The original grass-type Pokémon, one of three that Ash can choose at the start of
+                        his journey.</p>
+                </div>
+            </div>
+            <!-- Repeat for other Pokémon as needed -->
+
         </div>
     </section>
 
