@@ -1,0 +1,11 @@
+[
+    {
+        "id": "001",
+        "name": "Bulbasaur",
+        "japaneseName": "フシギダネ",
+        "image": "path-to-bulbasaur.png",
+        "cry": "path-to-bulbasaur-cry.mp3",
+        "description": "The original grass-type Pokémon, one of three that Ash can choose at the start of his journey."
+    }
+
+]

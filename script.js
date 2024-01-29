@@ -32,3 +32,35 @@ document.querySelectorAll('.pokemon-cry').forEach(cryElement => {
 });
 
 // Add additional JavaScript for animation on hover and other interactive elements
+
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("pokemonData.json")
+    .then((response) => response.json())
+    .then((pokemonList) => {
+      const pokemonContainer = document.getElementById("pokemon-list");
+      pokemonList.forEach((pokemon) => {
+        const pokemonCard = createPokemonCard(pokemon);
+        pokemonContainer.appendChild(pokemonCard);
+      });
+    });
+
+  document.getElementById("searchBar").addEventListener("input", (e) => {
+    const searchText = e.target.value.toLowerCase();
+    filterPokemon(searchText, pokemonContainer);
+  });
+});
+
+function createPokemonCard(pokemon) {
+  const card = document.createElement("div");
+  card.className = "pokemon-card";
+  // Add other elements and details to the card
+  return card;
+}
+
+function filterPokemon(searchText, container) {
+  const cards = container.getElementsByClassName("pokemon-card");
+  Array.from(cards).forEach((card) => {
+    const name = card.querySelector(".pokemon-name").textContent.toLowerCase();
+    card.style.display = name.includes(searchText) ? "" : "none";
+  });
+}
