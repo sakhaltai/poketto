@@ -14,8 +14,8 @@ poketto is a simple original-151-pokemon information site for me to practice web
 ###
 
 <p align="left">🚽 Creating poop since 2023
-<br>🍱 I'm currently learning ...
-<br>🍠 Goals: ...<br>🍵 Fun fact: ...
+<br>🍱 I'm currently learning how to make an After Effects extension!
+<br>🍠 Goals: literally just to make anything that works.<br>🍵 Fun fact: I like pocket monster pokemon it's very fun and it's a cool franchise and it's cool IP.
 </p>
 
 ###
