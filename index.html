@@ -1,3 +1,55 @@
-<h1>poketto</h1>
-<h2>a site for practicing my html/tailwind/react skillz</h2>
-<body>I may use chatGPT to help me, but I'm also learning the fundamentals this time, so fuck you.</body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Pokédex</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans bg-white text-gray-800">
+
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 bg-white shadow">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#home" class="text-gray-800 text-xl font-bold">Home</a>
+            <div>
+                <a href="#og151" class="text-gray-800 mx-3">The OG 151</a>
+                <a href="#kantoDex" class="text-gray-800 mx-3">The Kanto Dex</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gray-100">
+        <div class="container mx-auto px-6 py-10 text-center">
+            <h1 class="text-5xl font-bold mb-2">The OG 151</h1>
+            <p class="text-gray-700 mb-6">
+                You know them. You love them. We'll get to the other ones later, but for now it's the OG 151.
+            </p>
+            <!-- Placeholder for Hero Image -->
+            <img src="path-to-hero-image.png" alt="Ash and the Starters" class="mx-auto">
+        </div>
+    </section>
+
+    <!-- The Kanto Dex Section -->
+    <section id="og151" class="container mx-auto px-6 py-10">
+        <h2 class="text-4xl font-bold text-center mb-10">The Kanto Dex</h2>
+        <!-- Placeholder for Pokémon List -->
+        <div id="pokemon-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Individual Pokémon Entries will be populated here -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Mini Pokédex</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
