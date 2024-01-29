@@ -1,11 +1,11 @@
 # poketto
 poketto is a simple original-151-pokemon information site for me to practice web dev/design skills. fun lil project!
 
-<h1 align="left">オイオイオイお前ら、このサイトは俺のものだ。黙って楽しめ、この野郎ども。 👋 poketto is a simple original-151-pokemon information site for me to practice web dev/design skills. fun lil project!</h1>
+<h1 align="left">poketto. a simple site for pkmn 151.</h1>
 
 ###
 
-<p align="left">My name is ... and I'm a ..., from ....</p>
+<p align="left">オイオイオイお前ら、このサイトは俺のものだ。黙って楽しめ、この野郎ども。 👋 poketto is a simple original-151-pokemon information site for me to practice web dev/design skills. fun lil project!</p>
 
 ###
 
